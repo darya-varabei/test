@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		673072276BA83D5A33F7BADE /* Pods_Pillquipo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 945A4EA4D89AD72FFA8F182F /* Pods_Pillquipo.framework */; };
+		D5C1FF1126330BCF00A2637E /* PillquipoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C1FF1026330BCF00A2637E /* PillquipoApp.swift */; };
+		D5C1FF1326330BCF00A2637E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C1FF1226330BCF00A2637E /* ContentView.swift */; };
+		D5C1FF1526330BD200A2637E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5C1FF1426330BD200A2637E /* Assets.xcassets */; };
+		D5C1FF1826330BD200A2637E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5C1FF1726330BD200A2637E /* Preview Assets.xcassets */; };
+		D5C1FF2126330C5000A2637E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D5C1FF2026330C5000A2637E /* GoogleService-Info.plist */; };
+		D5C1FF4426330EF600A2637E /* CodeScanner in Frameworks */ = {isa = PBXBuildFile; productRef = D5C1FF4326330EF600A2637E /* CodeScanner */; };
+		D5C1FF4F263310FA00A2637E /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C1FF4E263310FA00A2637E /* DataModel.swift */; };
+		D5C1FF532633111D00A2637E /* MedicationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C1FF522633111D00A2637E /* MedicationModel.swift */; };
+		D5C1FF562633114500A2637E /* UserInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C1FF552633114500A2637E /* UserInfoView.swift */; };
+		D5C1FF592633116D00A2637E /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C1FF582633116D00A2637E /* MainTabView.swift */; };
+		D5C1FF5C263311A400A2637E /* AddPillView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C1FF5B263311A400A2637E /* AddPillView.swift */; };
+		D5C1FF5F263311AC00A2637E /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C1FF5E263311AC00A2637E /* LoadingView.swift */; };
+		D5C1FF61263311B200A2637E /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C1FF60263311B200A2637E /* CalendarView.swift */; };
+		D5C1FF64263311BA00A2637E /* EmptyListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C1FF63263311BA00A2637E /* EmptyListView.swift */; };
+		D5C1FF67263311C100A2637E /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C1FF66263311C000A2637E /* ListView.swift */; };
+		D5C1FF69263311C500A2637E /* MainListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C1FF68263311C500A2637E /* MainListView.swift */; };
+		D5C1FF6D263314E700A2637E /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C1FF6C263314E700A2637E /* UserModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4E188FDDC97BAAB07B6974E8 /* Pods-Pillquipo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pillquipo.debug.xcconfig"; path = "Target Support Files/Pods-Pillquipo/Pods-Pillquipo.debug.xcconfig"; sourceTree = "<group>"; };
+		570695EE81001A00CEFC68C5 /* Pods-Pillquipo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pillquipo.release.xcconfig"; path = "Target Support Files/Pods-Pillquipo/Pods-Pillquipo.release.xcconfig"; sourceTree = "<group>"; };
+		945A4EA4D89AD72FFA8F182F /* Pods_Pillquipo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pillquipo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5C1FF0D26330BCF00A2637E /* Pillquipo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pillquipo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5C1FF1026330BCF00A2637E /* PillquipoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PillquipoApp.swift; sourceTree = "<group>"; };
+		D5C1FF1226330BCF00A2637E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D5C1FF1426330BD200A2637E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D5C1FF1726330BD200A2637E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D5C1FF1926330BD200A2637E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5C1FF2026330C5000A2637E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D5C1FF4726330FC000A2637E /* Karla-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Karla-SemiBold.ttf"; sourceTree = "<group>"; };
+		D5C1FF4826330FC000A2637E /* Karla-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Karla-Medium.ttf"; sourceTree = "<group>"; };
+		D5C1FF4926330FC000A2637E /* Karla-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Karla-Light.ttf"; sourceTree = "<group>"; };
+		D5C1FF4A26330FC000A2637E /* Karla-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Karla-Bold.ttf"; sourceTree = "<group>"; };
+		D5C1FF4B26330FC000A2637E /* Karla-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Karla-Regular.ttf"; sourceTree = "<group>"; };
+		D5C1FF4E263310FA00A2637E /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		D5C1FF522633111D00A2637E /* MedicationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicationModel.swift; sourceTree = "<group>"; };
+		D5C1FF552633114500A2637E /* UserInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoView.swift; sourceTree = "<group>"; };
+		D5C1FF582633116D00A2637E /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		D5C1FF5B263311A400A2637E /* AddPillView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPillView.swift; sourceTree = "<group>"; };
+		D5C1FF5E263311AC00A2637E /* LoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		D5C1FF60263311B200A2637E /* CalendarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		D5C1FF63263311BA00A2637E /* EmptyListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmptyListView.swift; sourceTree = "<group>"; };
+		D5C1FF66263311C000A2637E /* ListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		D5C1FF68263311C500A2637E /* MainListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainListView.swift; sourceTree = "<group>"; };
+		D5C1FF6C263314E700A2637E /* UserModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D5C1FF0A26330BCF00A2637E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5C1FF4426330EF600A2637E /* CodeScanner in Frameworks */,
+				673072276BA83D5A33F7BADE /* Pods_Pillquipo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7BA98E2C11549711EC043CF5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4E188FDDC97BAAB07B6974E8 /* Pods-Pillquipo.debug.xcconfig */,
+				570695EE81001A00CEFC68C5 /* Pods-Pillquipo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		948433826885451DE98D319B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				945A4EA4D89AD72FFA8F182F /* Pods_Pillquipo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D5C1FF0426330BCF00A2637E = {
+			isa = PBXGroup;
+			children = (
+				D5C1FF0F26330BCF00A2637E /* Pillquipo */,
+				D5C1FF0E26330BCF00A2637E /* Products */,
+				7BA98E2C11549711EC043CF5 /* Pods */,
+				948433826885451DE98D319B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D5C1FF0E26330BCF00A2637E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D5C1FF0D26330BCF00A2637E /* Pillquipo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D5C1FF0F26330BCF00A2637E /* Pillquipo */ = {
+			isa = PBXGroup;
+			children = (
+				D5C1FF1026330BCF00A2637E /* PillquipoApp.swift */,
+				D5C1FF1226330BCF00A2637E /* ContentView.swift */,
+				D5C1FF552633114500A2637E /* UserInfoView.swift */,
+				D5C1FF582633116D00A2637E /* MainTabView.swift */,
+				D5C1FF5B263311A400A2637E /* AddPillView.swift */,
+				D5C1FF5E263311AC00A2637E /* LoadingView.swift */,
+				D5C1FF60263311B200A2637E /* CalendarView.swift */,
+				D5C1FF63263311BA00A2637E /* EmptyListView.swift */,
+				D5C1FF66263311C000A2637E /* ListView.swift */,
+				D5C1FF68263311C500A2637E /* MainListView.swift */,
+				D5C1FF4D263310DB00A2637E /* Models */,
+				D5C1FF4626330F9F00A2637E /* Fonts */,
+				D5C1FF2026330C5000A2637E /* GoogleService-Info.plist */,
+				D5C1FF1426330BD200A2637E /* Assets.xcassets */,
+				D5C1FF1926330BD200A2637E /* Info.plist */,
+				D5C1FF1626330BD200A2637E /* Preview Content */,
+			);
+			path = Pillquipo;
+			sourceTree = "<group>";
+		};
+		D5C1FF1626330BD200A2637E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D5C1FF1726330BD200A2637E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D5C1FF4626330F9F00A2637E /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				D5C1FF4A26330FC000A2637E /* Karla-Bold.ttf */,
+				D5C1FF4926330FC000A2637E /* Karla-Light.ttf */,
+				D5C1FF4826330FC000A2637E /* Karla-Medium.ttf */,
+				D5C1FF4B26330FC000A2637E /* Karla-Regular.ttf */,
+				D5C1FF4726330FC000A2637E /* Karla-SemiBold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		D5C1FF4D263310DB00A2637E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D5C1FF6C263314E700A2637E /* UserModel.swift */,
+				D5C1FF4E263310FA00A2637E /* DataModel.swift */,
+				D5C1FF522633111D00A2637E /* MedicationModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D5C1FF0C26330BCF00A2637E /* Pillquipo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5C1FF1C26330BD200A2637E /* Build configuration list for PBXNativeTarget "Pillquipo" */;
+			buildPhases = (
+				D07E84408834D65D13BDC87F /* [CP] Check Pods Manifest.lock */,
+				D5C1FF0926330BCF00A2637E /* Sources */,
+				D5C1FF0A26330BCF00A2637E /* Frameworks */,
+				D5C1FF0B26330BCF00A2637E /* Resources */,
+				ECC919A6D69D4BE9C5F46191 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pillquipo;
+			packageProductDependencies = (
+				D5C1FF4326330EF600A2637E /* CodeScanner */,
+			);
+			productName = Pillquipo;
+			productReference = D5C1FF0D26330BCF00A2637E /* Pillquipo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D5C1FF0526330BCF00A2637E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					D5C1FF0C26330BCF00A2637E = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = D5C1FF0826330BCF00A2637E /* Build configuration list for PBXProject "Pillquipo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D5C1FF0426330BCF00A2637E;
+			packageReferences = (
+				D5C1FF4226330EF600A2637E /* XCRemoteSwiftPackageReference "CodeScanner" */,
+			);
+			productRefGroup = D5C1FF0E26330BCF00A2637E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D5C1FF0C26330BCF00A2637E /* Pillquipo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D5C1FF0B26330BCF00A2637E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5C1FF1826330BD200A2637E /* Preview Assets.xcassets in Resources */,
+				D5C1FF1526330BD200A2637E /* Assets.xcassets in Resources */,
+				D5C1FF2126330C5000A2637E /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D07E84408834D65D13BDC87F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Pillquipo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ECC919A6D69D4BE9C5F46191 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Pillquipo/Pods-Pillquipo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Pillquipo/Pods-Pillquipo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Pillquipo/Pods-Pillquipo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D5C1FF0926330BCF00A2637E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5C1FF1326330BCF00A2637E /* ContentView.swift in Sources */,
+				D5C1FF69263311C500A2637E /* MainListView.swift in Sources */,
+				D5C1FF4F263310FA00A2637E /* DataModel.swift in Sources */,
+				D5C1FF532633111D00A2637E /* MedicationModel.swift in Sources */,
+				D5C1FF1126330BCF00A2637E /* PillquipoApp.swift in Sources */,
+				D5C1FF6D263314E700A2637E /* UserModel.swift in Sources */,
+				D5C1FF64263311BA00A2637E /* EmptyListView.swift in Sources */,
+				D5C1FF562633114500A2637E /* UserInfoView.swift in Sources */,
+				D5C1FF61263311B200A2637E /* CalendarView.swift in Sources */,
+				D5C1FF5F263311AC00A2637E /* LoadingView.swift in Sources */,
+				D5C1FF67263311C100A2637E /* ListView.swift in Sources */,
+				D5C1FF592633116D00A2637E /* MainTabView.swift in Sources */,
+				D5C1FF5C263311A400A2637E /* AddPillView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D5C1FF1A26330BD200A2637E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D5C1FF1B26330BD200A2637E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D5C1FF1D26330BD200A2637E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E188FDDC97BAAB07B6974E8 /* Pods-Pillquipo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Pillquipo/Preview Content\"";
+				DEVELOPMENT_TEAM = WSTWL4B246;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Pillquipo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dariavarabei.Pillquipo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D5C1FF1E26330BD200A2637E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 570695EE81001A00CEFC68C5 /* Pods-Pillquipo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Pillquipo/Preview Content\"";
+				DEVELOPMENT_TEAM = WSTWL4B246;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Pillquipo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dariavarabei.Pillquipo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D5C1FF0826330BCF00A2637E /* Build configuration list for PBXProject "Pillquipo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5C1FF1A26330BD200A2637E /* Debug */,
+				D5C1FF1B26330BD200A2637E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5C1FF1C26330BD200A2637E /* Build configuration list for PBXNativeTarget "Pillquipo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5C1FF1D26330BD200A2637E /* Debug */,
+				D5C1FF1E26330BD200A2637E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D5C1FF4226330EF600A2637E /* XCRemoteSwiftPackageReference "CodeScanner" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/twostraws/CodeScanner";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.7;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D5C1FF4326330EF600A2637E /* CodeScanner */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D5C1FF4226330EF600A2637E /* XCRemoteSwiftPackageReference "CodeScanner" */;
+			productName = CodeScanner;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = D5C1FF0526330BCF00A2637E /* Project object */;
+}
