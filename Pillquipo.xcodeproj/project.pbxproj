@@ -7,196 +7,220 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		673072276BA83D5A33F7BADE /* Pods_Pillquipo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 945A4EA4D89AD72FFA8F182F /* Pods_Pillquipo.framework */; };
-		D5C1FF1126330BCF00A2637E /* PillquipoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C1FF1026330BCF00A2637E /* PillquipoApp.swift */; };
-		D5C1FF1326330BCF00A2637E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C1FF1226330BCF00A2637E /* ContentView.swift */; };
-		D5C1FF1526330BD200A2637E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5C1FF1426330BD200A2637E /* Assets.xcassets */; };
-		D5C1FF1826330BD200A2637E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5C1FF1726330BD200A2637E /* Preview Assets.xcassets */; };
-		D5C1FF2126330C5000A2637E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D5C1FF2026330C5000A2637E /* GoogleService-Info.plist */; };
-		D5C1FF4426330EF600A2637E /* CodeScanner in Frameworks */ = {isa = PBXBuildFile; productRef = D5C1FF4326330EF600A2637E /* CodeScanner */; };
-		D5C1FF4F263310FA00A2637E /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C1FF4E263310FA00A2637E /* DataModel.swift */; };
-		D5C1FF532633111D00A2637E /* MedicationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C1FF522633111D00A2637E /* MedicationModel.swift */; };
-		D5C1FF562633114500A2637E /* UserInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C1FF552633114500A2637E /* UserInfoView.swift */; };
-		D5C1FF592633116D00A2637E /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C1FF582633116D00A2637E /* MainTabView.swift */; };
-		D5C1FF5C263311A400A2637E /* AddPillView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C1FF5B263311A400A2637E /* AddPillView.swift */; };
-		D5C1FF5F263311AC00A2637E /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C1FF5E263311AC00A2637E /* LoadingView.swift */; };
-		D5C1FF61263311B200A2637E /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C1FF60263311B200A2637E /* CalendarView.swift */; };
-		D5C1FF64263311BA00A2637E /* EmptyListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C1FF63263311BA00A2637E /* EmptyListView.swift */; };
-		D5C1FF67263311C100A2637E /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C1FF66263311C000A2637E /* ListView.swift */; };
-		D5C1FF69263311C500A2637E /* MainListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C1FF68263311C500A2637E /* MainListView.swift */; };
-		D5C1FF6D263314E700A2637E /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C1FF6C263314E700A2637E /* UserModel.swift */; };
+		D513D19626376A810088B764 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D513D19526376A810088B764 /* GoogleService-Info.plist */; };
+		D514B22F26531001004AD0AA /* CodeScanner in Frameworks */ = {isa = PBXBuildFile; productRef = D514B22E26531001004AD0AA /* CodeScanner */; };
+		D53907032636149A009BFA53 /* PillQuipoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53907022636149A009BFA53 /* PillQuipoApp.swift */; };
+		D53907052636149A009BFA53 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53907042636149A009BFA53 /* ContentView.swift */; };
+		D53907072636149C009BFA53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D53907062636149C009BFA53 /* Assets.xcassets */; };
+		D539070A2636149C009BFA53 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D53907092636149C009BFA53 /* Preview Assets.xcassets */; };
+		D539070C2636149C009BFA53 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = D539070B2636149C009BFA53 /* Persistence.swift */; };
+		D5390718263614FF009BFA53 /* AddPillView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5390717263614FF009BFA53 /* AddPillView.swift */; };
+		D539071D2636150C009BFA53 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D539071A2636150C009BFA53 /* ListView.swift */; };
+		D539071E2636150C009BFA53 /* UserInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D539071B2636150C009BFA53 /* UserInfoView.swift */; };
+		D539071F2636150C009BFA53 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D539071C2636150C009BFA53 /* CalendarView.swift */; };
+		D539072226361514009BFA53 /* MainListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D539072126361514009BFA53 /* MainListView.swift */; };
+		D539072526361521009BFA53 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D539072426361521009BFA53 /* GoogleService-Info.plist */; };
+		D53907282636152B009BFA53 /* EmptyListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53907272636152B009BFA53 /* EmptyListView.swift */; };
+		D539072C26361532009BFA53 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D539072A26361532009BFA53 /* MainTabView.swift */; };
+		D539072D26361532009BFA53 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D539072B26361532009BFA53 /* LoadingView.swift */; };
+		D54DDD7E26581655002FEC19 /* SavingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54DDD7D26581655002FEC19 /* SavingModel.swift */; };
+		D55155902653DA80003EEF33 /* LaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D551558F2653DA80003EEF33 /* LaunchView.swift */; };
+		D56A060026361E89008CB1E1 /* MedicationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56A05FF26361E89008CB1E1 /* MedicationModel.swift */; };
+		D56A060126361E89008CB1E1 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56A05FE26361E88008CB1E1 /* ModelData.swift */; };
+		D586733526443BC700F79806 /* FullListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D586733426443BC700F79806 /* FullListView.swift */; };
+		D5C77F4F263862D600095058 /* TextAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C77F4E263862D600095058 /* TextAlertView.swift */; };
+		D5E3D325267A67D100224C91 /* PillQuipo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D5E3D323267A67D100224C91 /* PillQuipo.xcdatamodeld */; };
+		D5F501DB2638B248001EC750 /* CoreDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F501DA2638B248001EC750 /* CoreDataModel.swift */; };
+		D5F501DE2638B384001EC750 /* CoreDataViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F501DD2638B384001EC750 /* CoreDataViewModel.swift */; };
+		FF6B58A0567C8DAF4FEB42DB /* Pods_PillQuipo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 002524D3A0B8C0F4DE199828 /* Pods_PillQuipo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4E188FDDC97BAAB07B6974E8 /* Pods-Pillquipo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pillquipo.debug.xcconfig"; path = "Target Support Files/Pods-Pillquipo/Pods-Pillquipo.debug.xcconfig"; sourceTree = "<group>"; };
-		570695EE81001A00CEFC68C5 /* Pods-Pillquipo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pillquipo.release.xcconfig"; path = "Target Support Files/Pods-Pillquipo/Pods-Pillquipo.release.xcconfig"; sourceTree = "<group>"; };
-		945A4EA4D89AD72FFA8F182F /* Pods_Pillquipo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pillquipo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D5C1FF0D26330BCF00A2637E /* Pillquipo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pillquipo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D5C1FF1026330BCF00A2637E /* PillquipoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PillquipoApp.swift; sourceTree = "<group>"; };
-		D5C1FF1226330BCF00A2637E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		D5C1FF1426330BD200A2637E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D5C1FF1726330BD200A2637E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		D5C1FF1926330BD200A2637E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D5C1FF2026330C5000A2637E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		D5C1FF4726330FC000A2637E /* Karla-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Karla-SemiBold.ttf"; sourceTree = "<group>"; };
-		D5C1FF4826330FC000A2637E /* Karla-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Karla-Medium.ttf"; sourceTree = "<group>"; };
-		D5C1FF4926330FC000A2637E /* Karla-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Karla-Light.ttf"; sourceTree = "<group>"; };
-		D5C1FF4A26330FC000A2637E /* Karla-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Karla-Bold.ttf"; sourceTree = "<group>"; };
-		D5C1FF4B26330FC000A2637E /* Karla-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Karla-Regular.ttf"; sourceTree = "<group>"; };
-		D5C1FF4E263310FA00A2637E /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
-		D5C1FF522633111D00A2637E /* MedicationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicationModel.swift; sourceTree = "<group>"; };
-		D5C1FF552633114500A2637E /* UserInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoView.swift; sourceTree = "<group>"; };
-		D5C1FF582633116D00A2637E /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
-		D5C1FF5B263311A400A2637E /* AddPillView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPillView.swift; sourceTree = "<group>"; };
-		D5C1FF5E263311AC00A2637E /* LoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
-		D5C1FF60263311B200A2637E /* CalendarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
-		D5C1FF63263311BA00A2637E /* EmptyListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmptyListView.swift; sourceTree = "<group>"; };
-		D5C1FF66263311C000A2637E /* ListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
-		D5C1FF68263311C500A2637E /* MainListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainListView.swift; sourceTree = "<group>"; };
-		D5C1FF6C263314E700A2637E /* UserModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		002524D3A0B8C0F4DE199828 /* Pods_PillQuipo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PillQuipo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		22D5A68D8EB0057EBE2FD1C2 /* Pods-PillQuipo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PillQuipo.debug.xcconfig"; path = "Target Support Files/Pods-PillQuipo/Pods-PillQuipo.debug.xcconfig"; sourceTree = "<group>"; };
+		2B7358566B5D19652316D92B /* Pods-PillQuipo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PillQuipo.release.xcconfig"; path = "Target Support Files/Pods-PillQuipo/Pods-PillQuipo.release.xcconfig"; sourceTree = "<group>"; };
+		D513D19526376A810088B764 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D53906FF2636149A009BFA53 /* PillQuipo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PillQuipo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D53907022636149A009BFA53 /* PillQuipoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PillQuipoApp.swift; sourceTree = "<group>"; };
+		D53907042636149A009BFA53 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D53907062636149C009BFA53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D53907092636149C009BFA53 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D539070B2636149C009BFA53 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		D53907102636149C009BFA53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5390717263614FF009BFA53 /* AddPillView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPillView.swift; sourceTree = "<group>"; };
+		D539071A2636150C009BFA53 /* ListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		D539071B2636150C009BFA53 /* UserInfoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInfoView.swift; sourceTree = "<group>"; };
+		D539071C2636150C009BFA53 /* CalendarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		D539072126361514009BFA53 /* MainListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainListView.swift; sourceTree = "<group>"; };
+		D539072426361521009BFA53 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D53907272636152B009BFA53 /* EmptyListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmptyListView.swift; sourceTree = "<group>"; };
+		D539072A26361532009BFA53 /* MainTabView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		D539072B26361532009BFA53 /* LoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		D54DDD7D26581655002FEC19 /* SavingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavingModel.swift; sourceTree = "<group>"; };
+		D551558F2653DA80003EEF33 /* LaunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchView.swift; sourceTree = "<group>"; };
+		D56A05F526361DDA008CB1E1 /* Karla-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Karla-Light.ttf"; sourceTree = "<group>"; };
+		D56A05F726361DE9008CB1E1 /* Karla-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Karla-Bold.ttf"; sourceTree = "<group>"; };
+		D56A05F926361DEC008CB1E1 /* Karla-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Karla-Regular.ttf"; sourceTree = "<group>"; };
+		D56A05FA26361DEF008CB1E1 /* Karla-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Karla-Medium.ttf"; sourceTree = "<group>"; };
+		D56A05FB26361DF1008CB1E1 /* Karla-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Karla-SemiBold.ttf"; sourceTree = "<group>"; };
+		D56A05FE26361E88008CB1E1 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		D56A05FF26361E89008CB1E1 /* MedicationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicationModel.swift; sourceTree = "<group>"; };
+		D586733426443BC700F79806 /* FullListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullListView.swift; sourceTree = "<group>"; };
+		D5C77F4E263862D600095058 /* TextAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextAlertView.swift; sourceTree = "<group>"; };
+		D5E3D324267A67D100224C91 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		D5F501DA2638B248001EC750 /* CoreDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataModel.swift; sourceTree = "<group>"; };
+		D5F501DD2638B384001EC750 /* CoreDataViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		D5C1FF0A26330BCF00A2637E /* Frameworks */ = {
+		D53906FC2636149A009BFA53 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D5C1FF4426330EF600A2637E /* CodeScanner in Frameworks */,
-				673072276BA83D5A33F7BADE /* Pods_Pillquipo.framework in Frameworks */,
+				D514B22F26531001004AD0AA /* CodeScanner in Frameworks */,
+				FF6B58A0567C8DAF4FEB42DB /* Pods_PillQuipo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		7BA98E2C11549711EC043CF5 /* Pods */ = {
+		387F6DACF49A79A652143FF4 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				4E188FDDC97BAAB07B6974E8 /* Pods-Pillquipo.debug.xcconfig */,
-				570695EE81001A00CEFC68C5 /* Pods-Pillquipo.release.xcconfig */,
+				22D5A68D8EB0057EBE2FD1C2 /* Pods-PillQuipo.debug.xcconfig */,
+				2B7358566B5D19652316D92B /* Pods-PillQuipo.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		948433826885451DE98D319B /* Frameworks */ = {
+		53B517969E32E20CA5835865 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				945A4EA4D89AD72FFA8F182F /* Pods_Pillquipo.framework */,
+				002524D3A0B8C0F4DE199828 /* Pods_PillQuipo.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D5C1FF0426330BCF00A2637E = {
+		D53906F62636149A009BFA53 = {
 			isa = PBXGroup;
 			children = (
-				D5C1FF0F26330BCF00A2637E /* Pillquipo */,
-				D5C1FF0E26330BCF00A2637E /* Products */,
-				7BA98E2C11549711EC043CF5 /* Pods */,
-				948433826885451DE98D319B /* Frameworks */,
+				D53907012636149A009BFA53 /* PillQuipo */,
+				D53907002636149A009BFA53 /* Products */,
+				387F6DACF49A79A652143FF4 /* Pods */,
+				53B517969E32E20CA5835865 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		D5C1FF0E26330BCF00A2637E /* Products */ = {
+		D53907002636149A009BFA53 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D5C1FF0D26330BCF00A2637E /* Pillquipo.app */,
+				D53906FF2636149A009BFA53 /* PillQuipo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D5C1FF0F26330BCF00A2637E /* Pillquipo */ = {
+		D53907012636149A009BFA53 /* PillQuipo */ = {
 			isa = PBXGroup;
 			children = (
-				D5C1FF1026330BCF00A2637E /* PillquipoApp.swift */,
-				D5C1FF1226330BCF00A2637E /* ContentView.swift */,
-				D5C1FF552633114500A2637E /* UserInfoView.swift */,
-				D5C1FF582633116D00A2637E /* MainTabView.swift */,
-				D5C1FF5B263311A400A2637E /* AddPillView.swift */,
-				D5C1FF5E263311AC00A2637E /* LoadingView.swift */,
-				D5C1FF60263311B200A2637E /* CalendarView.swift */,
-				D5C1FF63263311BA00A2637E /* EmptyListView.swift */,
-				D5C1FF66263311C000A2637E /* ListView.swift */,
-				D5C1FF68263311C500A2637E /* MainListView.swift */,
-				D5C1FF4D263310DB00A2637E /* Models */,
-				D5C1FF4626330F9F00A2637E /* Fonts */,
-				D5C1FF2026330C5000A2637E /* GoogleService-Info.plist */,
-				D5C1FF1426330BD200A2637E /* Assets.xcassets */,
-				D5C1FF1926330BD200A2637E /* Info.plist */,
-				D5C1FF1626330BD200A2637E /* Preview Content */,
+				D55EDCFE26369CDE000A4BC0 /* Model */,
+				D56A05F226361DB2008CB1E1 /* Font */,
+				D53907022636149A009BFA53 /* PillQuipoApp.swift */,
+				D53907062636149C009BFA53 /* Assets.xcassets */,
+				D53907042636149A009BFA53 /* ContentView.swift */,
+				D551558F2653DA80003EEF33 /* LaunchView.swift */,
+				D539071C2636150C009BFA53 /* CalendarView.swift */,
+				D539071A2636150C009BFA53 /* ListView.swift */,
+				D5E3D323267A67D100224C91 /* PillQuipo.xcdatamodeld */,
+				D513D19526376A810088B764 /* GoogleService-Info.plist */,
+				D539072126361514009BFA53 /* MainListView.swift */,
+				D539072426361521009BFA53 /* GoogleService-Info.plist */,
+				D539071B2636150C009BFA53 /* UserInfoView.swift */,
+				D586733426443BC700F79806 /* FullListView.swift */,
+				D5C77F4E263862D600095058 /* TextAlertView.swift */,
+				D53907272636152B009BFA53 /* EmptyListView.swift */,
+				D539072B26361532009BFA53 /* LoadingView.swift */,
+				D539072A26361532009BFA53 /* MainTabView.swift */,
+				D5390717263614FF009BFA53 /* AddPillView.swift */,
+				D539070B2636149C009BFA53 /* Persistence.swift */,
+				D53907102636149C009BFA53 /* Info.plist */,
+				D53907082636149C009BFA53 /* Preview Content */,
 			);
-			path = Pillquipo;
+			path = PillQuipo;
 			sourceTree = "<group>";
 		};
-		D5C1FF1626330BD200A2637E /* Preview Content */ = {
+		D53907082636149C009BFA53 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				D5C1FF1726330BD200A2637E /* Preview Assets.xcassets */,
+				D53907092636149C009BFA53 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		D5C1FF4626330F9F00A2637E /* Fonts */ = {
+		D55EDCFE26369CDE000A4BC0 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				D5C1FF4A26330FC000A2637E /* Karla-Bold.ttf */,
-				D5C1FF4926330FC000A2637E /* Karla-Light.ttf */,
-				D5C1FF4826330FC000A2637E /* Karla-Medium.ttf */,
-				D5C1FF4B26330FC000A2637E /* Karla-Regular.ttf */,
-				D5C1FF4726330FC000A2637E /* Karla-SemiBold.ttf */,
+				D56A05FF26361E89008CB1E1 /* MedicationModel.swift */,
+				D54DDD7D26581655002FEC19 /* SavingModel.swift */,
+				D56A05FE26361E88008CB1E1 /* ModelData.swift */,
+				D5F501DA2638B248001EC750 /* CoreDataModel.swift */,
+				D5F501DD2638B384001EC750 /* CoreDataViewModel.swift */,
 			);
-			path = Fonts;
+			path = Model;
 			sourceTree = "<group>";
 		};
-		D5C1FF4D263310DB00A2637E /* Models */ = {
+		D56A05F226361DB2008CB1E1 /* Font */ = {
 			isa = PBXGroup;
 			children = (
-				D5C1FF6C263314E700A2637E /* UserModel.swift */,
-				D5C1FF4E263310FA00A2637E /* DataModel.swift */,
-				D5C1FF522633111D00A2637E /* MedicationModel.swift */,
+				D56A05F526361DDA008CB1E1 /* Karla-Light.ttf */,
+				D56A05F726361DE9008CB1E1 /* Karla-Bold.ttf */,
+				D56A05FA26361DEF008CB1E1 /* Karla-Medium.ttf */,
+				D56A05F926361DEC008CB1E1 /* Karla-Regular.ttf */,
+				D56A05FB26361DF1008CB1E1 /* Karla-SemiBold.ttf */,
 			);
-			path = Models;
+			path = Font;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D5C1FF0C26330BCF00A2637E /* Pillquipo */ = {
+		D53906FE2636149A009BFA53 /* PillQuipo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D5C1FF1C26330BD200A2637E /* Build configuration list for PBXNativeTarget "Pillquipo" */;
+			buildConfigurationList = D53907132636149C009BFA53 /* Build configuration list for PBXNativeTarget "PillQuipo" */;
 			buildPhases = (
-				D07E84408834D65D13BDC87F /* [CP] Check Pods Manifest.lock */,
-				D5C1FF0926330BCF00A2637E /* Sources */,
-				D5C1FF0A26330BCF00A2637E /* Frameworks */,
-				D5C1FF0B26330BCF00A2637E /* Resources */,
-				ECC919A6D69D4BE9C5F46191 /* [CP] Embed Pods Frameworks */,
+				08396227552833C58A556BE5 /* [CP] Check Pods Manifest.lock */,
+				D53906FB2636149A009BFA53 /* Sources */,
+				D53906FC2636149A009BFA53 /* Frameworks */,
+				D53906FD2636149A009BFA53 /* Resources */,
+				31EBA16562174F5CDE01D492 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Pillquipo;
+			name = PillQuipo;
 			packageProductDependencies = (
-				D5C1FF4326330EF600A2637E /* CodeScanner */,
+				D514B22E26531001004AD0AA /* CodeScanner */,
 			);
-			productName = Pillquipo;
-			productReference = D5C1FF0D26330BCF00A2637E /* Pillquipo.app */;
+			productName = PillQuipo;
+			productReference = D53906FF2636149A009BFA53 /* PillQuipo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D5C1FF0526330BCF00A2637E /* Project object */ = {
+		D53906F72636149A009BFA53 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1240;
 				TargetAttributes = {
-					D5C1FF0C26330BCF00A2637E = {
+					D53906FE2636149A009BFA53 = {
 						CreatedOnToolsVersion = 12.4;
 					};
 				};
 			};
-			buildConfigurationList = D5C1FF0826330BCF00A2637E /* Build configuration list for PBXProject "Pillquipo" */;
+			buildConfigurationList = D53906FA2636149A009BFA53 /* Build configuration list for PBXProject "PillQuipo" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -204,34 +228,35 @@
 				en,
 				Base,
 			);
-			mainGroup = D5C1FF0426330BCF00A2637E;
+			mainGroup = D53906F62636149A009BFA53;
 			packageReferences = (
-				D5C1FF4226330EF600A2637E /* XCRemoteSwiftPackageReference "CodeScanner" */,
+				D539077026361CFF009BFA53 /* XCRemoteSwiftPackageReference "CodeScanner" */,
 			);
-			productRefGroup = D5C1FF0E26330BCF00A2637E /* Products */;
+			productRefGroup = D53907002636149A009BFA53 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D5C1FF0C26330BCF00A2637E /* Pillquipo */,
+				D53906FE2636149A009BFA53 /* PillQuipo */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		D5C1FF0B26330BCF00A2637E /* Resources */ = {
+		D53906FD2636149A009BFA53 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D5C1FF1826330BD200A2637E /* Preview Assets.xcassets in Resources */,
-				D5C1FF1526330BD200A2637E /* Assets.xcassets in Resources */,
-				D5C1FF2126330C5000A2637E /* GoogleService-Info.plist in Resources */,
+				D539070A2636149C009BFA53 /* Preview Assets.xcassets in Resources */,
+				D53907072636149C009BFA53 /* Assets.xcassets in Resources */,
+				D513D19626376A810088B764 /* GoogleService-Info.plist in Resources */,
+				D539072526361521009BFA53 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		D07E84408834D65D13BDC87F /* [CP] Check Pods Manifest.lock */ = {
+		08396227552833C58A556BE5 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -246,57 +271,64 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Pillquipo-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-PillQuipo-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		ECC919A6D69D4BE9C5F46191 /* [CP] Embed Pods Frameworks */ = {
+		31EBA16562174F5CDE01D492 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Pillquipo/Pods-Pillquipo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-PillQuipo/Pods-PillQuipo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Pillquipo/Pods-Pillquipo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-PillQuipo/Pods-PillQuipo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Pillquipo/Pods-Pillquipo-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PillQuipo/Pods-PillQuipo-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		D5C1FF0926330BCF00A2637E /* Sources */ = {
+		D53906FB2636149A009BFA53 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D5C1FF1326330BCF00A2637E /* ContentView.swift in Sources */,
-				D5C1FF69263311C500A2637E /* MainListView.swift in Sources */,
-				D5C1FF4F263310FA00A2637E /* DataModel.swift in Sources */,
-				D5C1FF532633111D00A2637E /* MedicationModel.swift in Sources */,
-				D5C1FF1126330BCF00A2637E /* PillquipoApp.swift in Sources */,
-				D5C1FF6D263314E700A2637E /* UserModel.swift in Sources */,
-				D5C1FF64263311BA00A2637E /* EmptyListView.swift in Sources */,
-				D5C1FF562633114500A2637E /* UserInfoView.swift in Sources */,
-				D5C1FF61263311B200A2637E /* CalendarView.swift in Sources */,
-				D5C1FF5F263311AC00A2637E /* LoadingView.swift in Sources */,
-				D5C1FF67263311C100A2637E /* ListView.swift in Sources */,
-				D5C1FF592633116D00A2637E /* MainTabView.swift in Sources */,
-				D5C1FF5C263311A400A2637E /* AddPillView.swift in Sources */,
+				D5390718263614FF009BFA53 /* AddPillView.swift in Sources */,
+				D5F501DE2638B384001EC750 /* CoreDataViewModel.swift in Sources */,
+				D539071E2636150C009BFA53 /* UserInfoView.swift in Sources */,
+				D539071F2636150C009BFA53 /* CalendarView.swift in Sources */,
+				D56A060026361E89008CB1E1 /* MedicationModel.swift in Sources */,
+				D54DDD7E26581655002FEC19 /* SavingModel.swift in Sources */,
+				D539070C2636149C009BFA53 /* Persistence.swift in Sources */,
+				D53907282636152B009BFA53 /* EmptyListView.swift in Sources */,
+				D5F501DB2638B248001EC750 /* CoreDataModel.swift in Sources */,
+				D5C77F4F263862D600095058 /* TextAlertView.swift in Sources */,
+				D539072D26361532009BFA53 /* LoadingView.swift in Sources */,
+				D55155902653DA80003EEF33 /* LaunchView.swift in Sources */,
+				D539072C26361532009BFA53 /* MainTabView.swift in Sources */,
+				D5E3D325267A67D100224C91 /* PillQuipo.xcdatamodeld in Sources */,
+				D539072226361514009BFA53 /* MainListView.swift in Sources */,
+				D539071D2636150C009BFA53 /* ListView.swift in Sources */,
+				D586733526443BC700F79806 /* FullListView.swift in Sources */,
+				D53907052636149A009BFA53 /* ContentView.swift in Sources */,
+				D53907032636149A009BFA53 /* PillQuipoApp.swift in Sources */,
+				D56A060126361E89008CB1E1 /* ModelData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		D5C1FF1A26330BD200A2637E /* Debug */ = {
+		D53907112636149C009BFA53 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -357,7 +389,7 @@
 			};
 			name = Debug;
 		};
-		D5C1FF1B26330BD200A2637E /* Release */ = {
+		D53907122636149C009BFA53 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -412,46 +444,46 @@
 			};
 			name = Release;
 		};
-		D5C1FF1D26330BD200A2637E /* Debug */ = {
+		D53907142636149C009BFA53 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4E188FDDC97BAAB07B6974E8 /* Pods-Pillquipo.debug.xcconfig */;
+			baseConfigurationReference = 22D5A68D8EB0057EBE2FD1C2 /* Pods-PillQuipo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"Pillquipo/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"PillQuipo/Preview Content\"";
 				DEVELOPMENT_TEAM = WSTWL4B246;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = Pillquipo/Info.plist;
+				INFOPLIST_FILE = PillQuipo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = dariavarabei.Pillquipo;
+				PRODUCT_BUNDLE_IDENTIFIER = dariavarabei.PillQuipo1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		D5C1FF1E26330BD200A2637E /* Release */ = {
+		D53907152636149C009BFA53 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 570695EE81001A00CEFC68C5 /* Pods-Pillquipo.release.xcconfig */;
+			baseConfigurationReference = 2B7358566B5D19652316D92B /* Pods-PillQuipo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"Pillquipo/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"PillQuipo/Preview Content\"";
 				DEVELOPMENT_TEAM = WSTWL4B246;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = Pillquipo/Info.plist;
+				INFOPLIST_FILE = PillQuipo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = dariavarabei.Pillquipo;
+				PRODUCT_BUNDLE_IDENTIFIER = dariavarabei.pillQuipo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -461,20 +493,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D5C1FF0826330BCF00A2637E /* Build configuration list for PBXProject "Pillquipo" */ = {
+		D53906FA2636149A009BFA53 /* Build configuration list for PBXProject "PillQuipo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D5C1FF1A26330BD200A2637E /* Debug */,
-				D5C1FF1B26330BD200A2637E /* Release */,
+				D53907112636149C009BFA53 /* Debug */,
+				D53907122636149C009BFA53 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D5C1FF1C26330BD200A2637E /* Build configuration list for PBXNativeTarget "Pillquipo" */ = {
+		D53907132636149C009BFA53 /* Build configuration list for PBXNativeTarget "PillQuipo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D5C1FF1D26330BD200A2637E /* Debug */,
-				D5C1FF1E26330BD200A2637E /* Release */,
+				D53907142636149C009BFA53 /* Debug */,
+				D53907152636149C009BFA53 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -482,7 +514,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		D5C1FF4226330EF600A2637E /* XCRemoteSwiftPackageReference "CodeScanner" */ = {
+		D539077026361CFF009BFA53 /* XCRemoteSwiftPackageReference "CodeScanner" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/twostraws/CodeScanner";
 			requirement = {
@@ -493,12 +525,25 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		D5C1FF4326330EF600A2637E /* CodeScanner */ = {
+		D514B22E26531001004AD0AA /* CodeScanner */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = D5C1FF4226330EF600A2637E /* XCRemoteSwiftPackageReference "CodeScanner" */;
+			package = D539077026361CFF009BFA53 /* XCRemoteSwiftPackageReference "CodeScanner" */;
 			productName = CodeScanner;
 		};
 /* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		D5E3D323267A67D100224C91 /* PillQuipo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D5E3D324267A67D100224C91 /* Model.xcdatamodel */,
+			);
+			currentVersion = D5E3D324267A67D100224C91 /* Model.xcdatamodel */;
+			path = PillQuipo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
-	rootObject = D5C1FF0526330BCF00A2637E /* Project object */;
+	rootObject = D53906F72636149A009BFA53 /* Project object */;
 }

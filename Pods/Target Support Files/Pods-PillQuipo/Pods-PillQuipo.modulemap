@@ -1,0 +1,6 @@
+framework module Pods_PillQuipo {
+  umbrella header "Pods-PillQuipo-umbrella.h"
+
+  export *
+  module * { export * }
+}

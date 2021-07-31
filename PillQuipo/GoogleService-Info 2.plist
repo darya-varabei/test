@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>1032234824606-pncg16fllamitbbsmpc40edttr7pme6h.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.1032234824606-pncg16fllamitbbsmpc40edttr7pme6h</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCWNSNf2VsVr6Bedp5srSQfq31oItvIMg0</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1032234824606</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.dariavarabei.PillQuipo</string>
+	<key>PROJECT_ID</key>
+	<string>care-time-de6b0</string>
+	<key>STORAGE_BUCKET</key>
+	<string>care-time-de6b0.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1032234824606:ios:f126ec2804c356f3129c8f</string>
+</dict>
+</plist>

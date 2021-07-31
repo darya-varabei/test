@@ -1,11 +1,11 @@
 # Uncomment the next line to define a global platform for your project
 # platform :ios, '9.0'
 
-target 'Pillquipo' do
+target 'PillQuipo' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
-  # Pods for Pillquipo
+  # Pods for PillQuipo
 pod 'Firebase'
 pod 'Firebase/Core'
 pod 'Firebase/ABTesting'     # No watchOS support yet
@@ -18,5 +18,4 @@ pod 'Firebase/Messaging'
 pod 'Firebase/Performance'   # No macOS, tvOS, watchOS, and Catalyst support yet
 pod 'Firebase/RemoteConfig'  # No watchOS support yet
 pod 'Firebase/Storage'
-
 end
